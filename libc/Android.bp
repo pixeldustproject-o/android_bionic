@@ -71,6 +71,12 @@ cc_defaults {
     },
     native_coverage: false,
     clang: true,
+
+    arch: {
+        arm: {
+            instruction_set: "arm",
+        },
+    },
 }
 
 // ANDROIDMK TRANSLATION ERROR: unsupported directive
