@@ -49,8 +49,6 @@ cc_object {
         },
     },
 
-    prefix_symbols: "__dlwrap_",
-
     // We need to access Bionic private headers in the linker.
     include_dirs: ["bionic/libc"],
 }
